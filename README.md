@@ -22,20 +22,35 @@
 ### Create the first node's data directory using the geth command and a couple of command line flags by running the following line in your terminal window (Git Bash in Windows): "./geth account new --datadir node1"
 ### Then repeat the same process for the second node by replacing the datadir parameter with the node2 folder: "./geth account new --datadir node2"
 ![Configure Genesis](Screenshots/Node-account-setup.PNG)
+
 ### Now, it's time to initialize and tell the nodes to use your genesis block!
 ### Initialize the first node, replacing yournetworkname.json with your own: "./geth init yournetworkname.json --datadir node1"
 ### Then run the same command for node2 : "./geth init yournetworkname.json --datadir node2"
 ![Configure Genesis](Screenshots/Initialize-Nodes.PNG)
 
-![Configure Genesis](Screenshots/homework-node-1-mining.PNG)
+## Time to start your blockchain network! 
+### Launch the first node into mining mode with the following command: "./geth --datadir node1 --mine --minerthreads 1"
+### The --mine flag tells the node to mine new blocks.
+### The --minerthreads flag tells geth how many CPU threads, or "workers" to use during mining. Since our difficulty is low, we can set it to 1.
+### You should see the node Committing new mining work:
+![Configure Genesis](Screenshots/homework-node-1-mining.PNG) 
 
+## Now you will launch the second node and configure it to let us talk to the chain via RPC.
+### Scroll up in the terminal window where node1 is running, and copy the entire enode:// address (including the last @address:port segment) of the first node located in the Started P2P Networking line.
+### Open another terminal window and navigate to the same directory as before.
+### Launch the second node, enable RPC, change the sync port, and pass the enode:// address of the first node in quotes by running the following command: "./geth --datadir node2 --port 30304 --rpc --bootnodes "enode://<replace with node1 enode address>" --ipcdisable"
+### Be sure to unlock the account and enable mining on the second node!
+### The output of the second node should show information about Importing block segments and synchronization:
+### You should now see both nodes producing new blocks, congratulations!
 ![Configure Genesis](Screenshots/homework-node-2.PNG)
 
-![Configure Genesis](Screenshots/homework-node-2-LFP.PNG)
-
+## Send a test transaction
+### Use the MyCrypto GUI wallet to connect to the node with the exposed RPC port.
+### You will need to use a custom network, and include the chain ID, and use ETH as the currency.
+![Configure Genesis](Screenshots/custom-node.PNG)
+### Import the keystore file from the node1/keystore directory into MyCrypto. This will import the private key.
 ![Configure Genesis](Screenshots/keystore-file-select.PNG)
 ![Configure Genesis](Screenshots/UTC-select.PNG)
-![Configure Genesis](Screenshots/custom-node.PNG)
 
 ![Configure Genesis](Screenshots/send-transaction.PNG)
 ![Configure Genesis](Screenshots/confirm-transaction.PNG)
