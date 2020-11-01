@@ -3,8 +3,7 @@
 
 ![Configure Genesis](Screenshots/Node-account-setup.PNG)
 
-### Open a terminal window, navigate to the Blockchain-Tools folder and type the following command:
-### ./puppeth
+### Open a terminal window, navigate to the Blockchain-Tools folder and type the following command: ./puppeth
 ### This should show the following prompt:
 
 ![Configure Genesis](Screenshots/puppeth-setup-1.PNG)
@@ -13,6 +12,7 @@
 ### Paste both account addresses from the first step one at a time into the list of accounts to seal.
 ### Paste them again in the list of accounts to pre-fund. There are no block rewards in PoA, so you'll need to pre-fund.
 ### You can choose no for pre-funding the pre-compiled accounts (0x1 .. 0xff) with wei. This keeps the genesis cleaner.
+### Specify your Chain ID.
 ![Configure Genesis](Screenshots/Configure-Genesis.PNG)
 
 ![Configure Genesis](Screenshots/Export-genesis.PNG)
