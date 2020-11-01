@@ -1,12 +1,13 @@
 # Blockchain
 
+
 ![Configure Genesis](Screenshots/Node-account-setup.PNG)
 
-###Open a terminal window, navigate to the Blockchain-Tools folder and type the following command:
+### Open a terminal window, navigate to the Blockchain-Tools folder and type the following command:
 
-###./puppeth
+### ./puppeth
 
-###This should show the following prompt:
+### This should show the following prompt:
 
 ![Configure Genesis](Screenshots/puppeth-setup-1.PNG)
 
