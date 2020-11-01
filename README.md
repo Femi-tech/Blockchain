@@ -1,5 +1,7 @@
 # Blockchain
 
+![Configure Genesis](Screenshots/Node-account-setup.PNG)
+
 ![Configure Genesis](Screenshots/puppeth-setup-1.PNG)
 
 ![Configure Genesis](Screenshots/Configure-Genesis.PNG)
@@ -7,8 +9,6 @@
 ![Configure Genesis](Screenshots/Export-genesis.PNG)
 
 ![Configure Genesis](Screenshots/Initialize-Nodes.PNG)
-
-![Configure Genesis](Screenshots/Node-account-setup.PNG)
 
 ![Configure Genesis](Screenshots/TX-Broadcast.PNG)
 
