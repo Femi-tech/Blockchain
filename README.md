@@ -1,2 +1,2 @@
 # Blockchain
-![Configure Genesis](https://github.com/Screenshots/Configure-Genesis.PNG)
+![Configure Genesis](Screenshots/Configure-Genesis.PNG)
