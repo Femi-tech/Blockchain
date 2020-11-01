@@ -19,7 +19,7 @@
 
 ![Configure Genesis](Screenshots/homework-node-2.PNG)
 
-![Configure Genesis](Screenshots/keystore-file-select.PNG
+![Configure Genesis](Screenshots/keystore-file-select.PNG)
 
 ![Configure Genesis](Screenshots/puppeth-setup-1.PNG)
 
