@@ -1,4 +1,5 @@
-# Blockchain
+# CREATE YOUR OWN PRIVATE Blockchain
+## Please note that you need to be using a Windows OS
 
 ### Open a terminal window, navigate to the Blockchain-Tools folder and type the following command: "./puppeth"
 ### This should show the following prompt:
@@ -62,7 +63,19 @@
 ### Import the keystore file from the node1/keystore directory into MyCrypto. This will import the private key.
 ![Configure Genesis](Screenshots/UTC-select.PNG)
 
+### Congrats your rich! well not really, this is the balance that was pre-funded for this account in the genesis configuration; these millions of ETH tokens are just for testing purposes.
+### Now we're going to send a transaction to ourselves to test it out. Follow the next steps.
+### Send a transaction from the node1 account to the node2 account.
 ![Configure Genesis](Screenshots/send-transaction.PNG)
+
+### Confirm the transaction by clicking "Send Transaction", and the "Send" button in the pop-up window.
 ![Configure Genesis](Screenshots/confirm-transaction.PNG)
+
+### Click the Check TX Status when the green message pops up, confirm the logout:
 ![Configure Genesis](Screenshots/TX-Broadcast.PNG)
+
+### You should see the transaction go from Pending to Successful in around the same block time you set in the genesis.
+### You can click the Check TX Status button to update the status.
 ![Configure Genesis](Screenshots/successful-transaction.PNG)
+
+## Congratulations, you just created a blockchain and sent a transaction!
