@@ -1,6 +1,19 @@
 # CREATE YOUR OWN PRIVATE Blockchain
-## Please note that you need to be using a Windows OS
-## First Step
+## Blockchain Installation Guide
+#### Please note that you need to be using a Windows OS
+#### First Step Install MyCrypto Desktop App 
+#### MyCrypto is a free, open-source, client-side interface that allows you to interact directly with the blockchain.
+#### Open your browser and navigate to the downloads page at https://download.mycrypto.com/.
+## Next step is to Install  Go Ethereum Tools
+#### Go Ethereum is one of the three original implementations of the Ethereum protocol. It is written in Go, fully open-source and licensed under the GNU LGPL v3.
+#### To install the Go Ethereum Tools, please follow the next steps:
+#### Open your browser and navigate to the Go Ethereum Tools download page at https://geth.ethereum.org/downloads/
+#### Depending on your Windows version, you should download the 32 bit or 64 bit version of the Go Ethereum Tools.
+#### After downloading the tools archive, open your "Downloads" folder, and you will find a file named geth-alltools-windows-amd64-1.9.7-a718daa6.zip in Windows. Note that the last numbers in the filename could vary depending on the last built available.
+#### Decompress the archive in the location of your preference in your computer's hard drive, and rename the containing folder as Blockchain-Tools.
+### You have finished the installation process; you will use these tools to create your very own blockchain!
+
+## Creating Genesis Block
 ### Open a terminal window, navigate to the Blockchain-Tools folder and type the following command: "./puppeth"
 ### This should show the following prompt:
 ![Configure Genesis](Screenshots/puppeth-setup-1.PNG)
