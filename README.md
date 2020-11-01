@@ -19,13 +19,12 @@
 
 ### Now, we need to create at least two nodes to build the chain from the genesis block onward:
 ### Exit puppeth by using the Ctrl+C keys combination.
-### Create the first node's data directory using the geth command and a couple of command line flags by running the following line in your terminal window (Git Bash in Windows):
-### ./geth account new --datadir node1
-### Repeat the same process for the second node by replacing the datadir parameter with the node2 folder.
-### ./geth account new --datadir node2
+### Create the first node's data directory using the geth command and a couple of command line flags by running the following line in your terminal window (Git Bash in Windows): ./geth account new --datadir node1
+### Then repeat the same process for the second node by replacing the datadir parameter with the node2 folder: ./geth account new --datadir node2
 ![Configure Genesis](Screenshots/Node-account-setup.PNG)
-
-
+### Now, it's time to initialize and tell the nodes to use your genesis block!
+### Initialize the first node, replacing yournetworkname.json with your own: ./geth init yournetworkname.json --datadir node1
+### Then run the same command for node2 : ./geth init yournetworkname.json --datadir node2
 ![Configure Genesis](Screenshots/Initialize-Nodes.PNG)
 
 ![Configure Genesis](Screenshots/TX-Broadcast.PNG)
