@@ -25,6 +25,6 @@
 
 ![Configure Genesis](Screenshots/send-transaction.PNG)
 
-![Configure Genesis](Screenshots/set-up-custom node.PNG)
+![Configure Genesis](Screenshots/custom-node.PNG)
 
 ![Configure Genesis](Screenshots/successful-transaction.PNG)
