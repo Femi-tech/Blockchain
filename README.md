@@ -31,14 +31,10 @@
 
 ![Configure Genesis](Screenshots/homework-node-2.PNG)
 
-
-
-![Configure Genesis](Screenshots/UTC-select.PNG)
-
-
 ![Configure Genesis](Screenshots/homework-node-2-LFP.PNG)
 
 ![Configure Genesis](Screenshots/keystore-file-select.PNG)
+![Configure Genesis](Screenshots/UTC-select.PNG)
 ![Configure Genesis](Screenshots/custom-node.PNG)
 
 ![Configure Genesis](Screenshots/send-transaction.PNG)
