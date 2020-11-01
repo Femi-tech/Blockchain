@@ -1,4 +1,4 @@
-# CREATE YOUR OWN PRIVATE BLOCKCHAIN
+# CREATE YOUR VERY OWN PRIVATE BLOCKCHAIN
 ## Blockchain Installation Guide
 #### Please note that you need to be using a Windows OS
 #### First Step Install MyCrypto Desktop App 
@@ -91,4 +91,4 @@
 ### You can click the Check TX Status button to update the status.
 ![Configure Genesis](Screenshots/successful-transaction.PNG)
 
-## Congratulations, you just created a blockchain and sent a transaction!
+# Congratulations, you just created a blockchain and sent a transaction!
