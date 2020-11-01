@@ -14,7 +14,16 @@
 ### You can choose no for pre-funding the pre-compiled accounts (0x1 .. 0xff) with wei. This keeps the genesis cleaner.
 ### Specify your Chain ID.
 ![Configure Genesis](Screenshots/Configure-Genesis.PNG)
+### Next Export your genesis configuration into a your networkname.json file as follows:
 
+
+### In the puppeth prompt, navigate to the Manage existing genesis by typing 2 and hitting enter.
+
+
+### You may have to type your network name again first if you're launching puppeth fresh.
+
+
+### Then, type 2 again to choose the Export genesis configurations option, and continue with the default (current) directory by hitting enter: This will fail to create two of the files, but you only need "networkname.json".
 ![Configure Genesis](Screenshots/Export-genesis.PNG)
 
 ![Configure Genesis](Screenshots/Initialize-Nodes.PNG)
