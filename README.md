@@ -1,6 +1,6 @@
 # CREATE YOUR OWN PRIVATE Blockchain
 ## Please note that you need to be using a Windows OS
-
+## First Step
 ### Open a terminal window, navigate to the Blockchain-Tools folder and type the following command: "./puppeth"
 ### This should show the following prompt:
 ![Configure Genesis](Screenshots/puppeth-setup-1.PNG)
