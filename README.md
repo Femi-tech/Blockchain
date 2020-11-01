@@ -1,5 +1,5 @@
 # CREATE YOUR VERY OWN PRIVATE BLOCKCHAIN
-![Blockchain Image](https://images.app.goo.gl/Yz9KtbY6ZzYwzkF17)
+![Blockchain Image](/https://images.app.goo.gl/Yz9KtbY6ZzYwzkF17)
 ## Blockchain Installation Guide
 #### Please note that you need to be using a Windows OS
 #### First Step Install MyCrypto Desktop App 
