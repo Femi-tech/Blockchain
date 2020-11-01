@@ -1,6 +1,6 @@
 # Blockchain
 
-### Open a terminal window, navigate to the Blockchain-Tools folder and type the following command: ./puppeth
+### Open a terminal window, navigate to the Blockchain-Tools folder and type the following command: "./puppeth"
 ### This should show the following prompt:
 ![Configure Genesis](Screenshots/puppeth-setup-1.PNG)
 
@@ -19,30 +19,29 @@
 
 ### Now, we need to create at least two nodes to build the chain from the genesis block onward:
 ### Exit puppeth by using the Ctrl+C keys combination.
-### Create the first node's data directory using the geth command and a couple of command line flags by running the following line in your terminal window (Git Bash in Windows): ./geth account new --datadir node1
-### Then repeat the same process for the second node by replacing the datadir parameter with the node2 folder: ./geth account new --datadir node2
+### Create the first node's data directory using the geth command and a couple of command line flags by running the following line in your terminal window (Git Bash in Windows): "./geth account new --datadir node1"
+### Then repeat the same process for the second node by replacing the datadir parameter with the node2 folder: "./geth account new --datadir node2"
 ![Configure Genesis](Screenshots/Node-account-setup.PNG)
 ### Now, it's time to initialize and tell the nodes to use your genesis block!
-### Initialize the first node, replacing yournetworkname.json with your own: ./geth init yournetworkname.json --datadir node1
-### Then run the same command for node2 : ./geth init yournetworkname.json --datadir node2
+### Initialize the first node, replacing yournetworkname.json with your own: "./geth init yournetworkname.json --datadir node1"
+### Then run the same command for node2 : "./geth init yournetworkname.json --datadir node2"
 ![Configure Genesis](Screenshots/Initialize-Nodes.PNG)
-
-![Configure Genesis](Screenshots/TX-Broadcast.PNG)
-
-![Configure Genesis](Screenshots/UTC-select.PNG)
-
-![Configure Genesis](Screenshots/confirm-transaction.PNG)
 
 ![Configure Genesis](Screenshots/homework-node-1-mining.PNG)
 
-![Configure Genesis](Screenshots/homework-node-2-LFP.PNG)
-
 ![Configure Genesis](Screenshots/homework-node-2.PNG)
 
+
+
+![Configure Genesis](Screenshots/UTC-select.PNG)
+
+
+![Configure Genesis](Screenshots/homework-node-2-LFP.PNG)
+
 ![Configure Genesis](Screenshots/keystore-file-select.PNG)
-
-![Configure Genesis](Screenshots/send-transaction.PNG)
-
 ![Configure Genesis](Screenshots/custom-node.PNG)
 
+![Configure Genesis](Screenshots/send-transaction.PNG)
+![Configure Genesis](Screenshots/confirm-transaction.PNG)
+![Configure Genesis](Screenshots/TX-Broadcast.PNG)
 ![Configure Genesis](Screenshots/successful-transaction.PNG)
