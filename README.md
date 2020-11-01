@@ -48,8 +48,18 @@
 ### Use the MyCrypto GUI wallet to connect to the node with the exposed RPC port.
 ### You will need to use a custom network, and include the chain ID, and use ETH as the currency.
 ![Configure Genesis](Screenshots/custom-node.PNG)
-### Import the keystore file from the node1/keystore directory into MyCrypto. This will import the private key.
+## Now you are going to connect MyCrypto with the blockchain you created. Follow the next steps.
+### Open up MyCrypto, then click Change Network at the bottom left:
+### Click "Add Custom Node", then add the custom network information that you set in the genesis.
+### Make sure that you scroll down to choose Custom in the "Network" column to reveal more options like Chain ID:
+### The chain ID must match what you came up with earlier.
+### The URL is pointing to the default RPC port on your local machine. Use http://127.0.0.1:8545.
+### Once you save and use the network, double-check that it is selected and is connected.
+### Now that you are connected to your blockchain, you will need to load a private key that you created and funded on the network:
+### On the left pane menu, click on "View & Send".
 ![Configure Genesis](Screenshots/keystore-file-select.PNG)
+
+### Import the keystore file from the node1/keystore directory into MyCrypto. This will import the private key.
 ![Configure Genesis](Screenshots/UTC-select.PNG)
 
 ![Configure Genesis](Screenshots/send-transaction.PNG)
