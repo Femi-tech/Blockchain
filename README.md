@@ -73,21 +73,21 @@
 #### On the left pane menu, click on "View & Send".
 ![Configure Genesis](Screenshots/keystore-file-select.PNG)
 
-### Import the keystore file from the node1/keystore directory into MyCrypto. This will import the private key.
+## Import the keystore file from the node1/keystore directory into MyCrypto. This will import the private key.
 ![Configure Genesis](Screenshots/UTC-select.PNG)
 
-### Congrats your rich! well not really, this is the balance that was pre-funded for this account in the genesis configuration; these millions of ETH tokens are just for testing purposes.
-### Now we're going to send a transaction to ourselves to test it out. Follow the next steps.
+## Congrats your rich! well not really, this is the balance that was pre-funded for this account in the genesis configuration; these millions of ETH tokens are just for testing purposes.
+### Now we're going to send a transaction to ourselves to test it out. Follow the next steps:
 ### Send a transaction from the node1 account to the node2 account.
 ![Configure Genesis](Screenshots/send-transaction.PNG)
 
-### Confirm the transaction by clicking "Send Transaction", and the "Send" button in the pop-up window.
+## Confirm the transaction by clicking "Send Transaction", and the "Send" button in the pop-up window.
 ![Configure Genesis](Screenshots/confirm-transaction.PNG)
 
-### Click the Check TX Status when the green message pops up, confirm the logout:
+## Click the Check TX Status when the green message pops up, confirm the logout:
 ![Configure Genesis](Screenshots/TX-Broadcast.PNG)
 
-### You should see the transaction go from Pending to Successful in around the same block time you set in the genesis.
+## You should see the transaction go from Pending to Successful in around the same block time you set in the genesis.
 ### You can click the Check TX Status button to update the status.
 ![Configure Genesis](Screenshots/successful-transaction.PNG)
 
